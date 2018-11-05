@@ -37,3 +37,9 @@ script:
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: EiJ8NzBQauNooCnxL8sqPGGMR9V8Um3jjTRGy5uM/3oN+9JsL/+kzJhHMKbQWaNArvCa34yWjAyVPwXFaUNmmDfmZc0wuFGG5eDq5yeHuiAhd0cNYiJvDcGx7HrWXAtMda6x2390j9TKmov5I1fK43xjn4r4vpEc9v5MfXLHF+RGjdjoREx1EgTRgi3XyJo1eZrxGfEfRxPKg24IjEGHdJXacs6uYIGJwG4OMis95MP7UOSOqATkTjHJZfbkepIjsIGA079l7ctNZ9hd59f0Xs3MWRVxsYItIcScQF80n/pDydXqwbkrKm6CiqR4qeLQMSTkrwRI1qpG8i8N15bDutZuZx4klGzO/Bo5P0SXTjEQm5zSnxoGQ5c5afoKmS/4BpAyq99dvlE9PMwH4z+xnpeW0K5eAbFaNMHuamekvXugIFJivuFYc4J8r3K6O1B+SpkiCOBqqvdM4Q02WT6iJ65py+ENBLqAfReyWPp51drIQdKbwA+QO5RigxGJoAFjqyZxFHLIL079gfdR8iZ5nuXdEJK0oJsFCKL40GaUV5S8A5050bIqftLYsmSM3PbMpjqGhXJI5pIVLVKgxMTYuuhK/jyCHiEe2BmtaiT3T/VcBg+gQ5o4oz6k2HdKrX1uRNfbRBrBEfgehkos0WzLYAN9a+1vMNFtUNQjqc9sdtI=
+  app: uno-miet
